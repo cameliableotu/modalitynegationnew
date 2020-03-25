@@ -161,10 +161,10 @@ var items = [
 [["ATTRAGREEADJROMANIAN-plmismatch",12], "EPDashedSentence", {s:"+"}, DS, {s:"Piureurile de lângă macroul picant mereu",as: [['s','au'],['k','are']]}],
 
 
-[["ATTRAGREEADJROMANIAN-sgmatch",13], "EPDashedSentence", {s:"+"}, DS, {s:"Sufletul de lângă trupul viu  mereu",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-sgmismatch",13], "EPDashedSentence", {s:"+"}, DS, {s:"Sufletul de lângă trupurile vii mereu",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-plmatch",13], "EPDashedSentence", {s:"+"}, DS, {s:"Sufletele de lângă trupurile vii mereu",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-plmismatch",13], "EPDashedSentence", {s:"+"}, DS, {s:"Sufletele de lângă trupul viu mereu",as: [['s','au'],['k','are']]}],
+[["ATTRAGREEADJROMANIAN-sgmatch",13], "EPDashedSentence", {s:"+"}, DS, {s:"Sufletul de lângă trupul omenesc  mereu",as: [['s','au'],['k','are']]}], 
+[["ATTRAGREEADJROMANIAN-sgmismatch",13], "EPDashedSentence", {s:"+"}, DS, {s:"Sufletul de lângă trupurile omeneşti mereu",as: [['s','au'],['k','are']]}], 
+[["ATTRAGREEADJROMANIAN-plmatch",13], "EPDashedSentence", {s:"+"}, DS, {s:"Sufletele de lângă trupurile omeneşti mereu",as: [['s','au'],['k','are']]}], 
+[["ATTRAGREEADJROMANIAN-plmismatch",13], "EPDashedSentence", {s:"+"}, DS, {s:"Sufletele de lângă trupul omenesc mereu",as: [['s','au'],['k','are']]}],
 [["ATTRAGREEADJROMANIAN-sgmatch",14], "EPDashedSentence", {s:"+"}, DS, {s:"Mamiferul de lângă nevertebratul albastru uneori",as: [['s','au'],['k','are']]}], 
 [["ATTRAGREEADJROMANIAN-sgmismatch",14], "EPDashedSentence", {s:"+"}, DS, {s:"Mamiferul de lângă nevertebratele albastre uneori",as: [['s','au'],['k','are']]}], 
 [["ATTRAGREEADJROMANIAN-plmatch",14], "EPDashedSentence", {s:"+"}, DS, {s:"Mamiferele de lângă nevertebratele albastre uneori",as: [['s','au'],['k','are']]}], 
