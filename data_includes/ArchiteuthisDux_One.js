@@ -9,6 +9,7 @@ var showProgressBar = true;
 // Main shuffleSequence definition
 var shuffleSequence = seq(
     'consent',
+    'setcounter',
     'intro',
     'shared-intro',
     sepWith("timeoutSep",rshuffle(startsWith('ARCHITEUTHIS'),startsWith('filler'))),
@@ -74,6 +75,7 @@ var items = [
 ["timeoutSep", Separator, { transfer: 250, normalMessage: "", errorMessage: ""}],
 
 ["consent", "Form", {consentRequired: true, html: {include: "consent.html"}}],
+["setcounter", "__SetCounter__", { }],
 ["intro", "Form", {consentRequired: true, html: {include: "intro.html"}}],
 ["debrief", "Form", {consentRequired: true, html: {include: "debrief.html"}}],
 
@@ -161,10 +163,10 @@ var items = [
 [["ARCHITEUTHIS-plmismatch",12], "EPDashedSentence", {s:"+"}, DS, {s:"Piureurile de lângă macroul picant mereu",as: [['s','au'],['k','are']]}],
 
 
-[["ARCHITEUTHIS-sgmatch",13], "EPDashedSentence", {s:"+"}, DS, {s:"Organismul de lângă microorganismul viu mereu",as: [['s','au'],['k','are']]}], 
-[["ARCHITEUTHIS-sgmismatch",13], "EPDashedSentence", {s:"+"}, DS, {s:"Organismul de lângă microorganismele vii mereu",as: [['s','au'],['k','are']]}], 
-[["ARCHITEUTHIS-plmatch",13], "EPDashedSentence", {s:"+"}, DS, {s:"Organismele de lângă microorganismele vii mereu",as: [['s','au'],['k','are']]}], 
-[["ARCHITEUTHIS-plmismatch",13], "EPDashedSentence", {s:"+"}, DS, {s:"Organismele de lângă microorganismul viu mereu",as: [['s','au'],['k','are']]}],
+[["ARCHITEUTHIS-sgmatch",13], "EPDashedSentence", {s:"+"}, DS, {s:"Sufletul de lângă trupul viu  mereu",as: [['s','au'],['k','are']]}], 
+[["ARCHITEUTHIS-sgmismatch",13], "EPDashedSentence", {s:"+"}, DS, {s:"Sufletul de lângă trupurile vii mereu",as: [['s','au'],['k','are']]}], 
+[["ARCHITEUTHIS-plmatch",13], "EPDashedSentence", {s:"+"}, DS, {s:"Sufletele de lângă trupurile vii mereu",as: [['s','au'],['k','are']]}], 
+[["ARCHITEUTHIS-plmismatch",13], "EPDashedSentence", {s:"+"}, DS, {s:"Sufletele de lângă trupul viu mereu",as: [['s','au'],['k','are']]}],
 [["ARCHITEUTHIS-sgmatch",14], "EPDashedSentence", {s:"+"}, DS, {s:"Mamiferul de lângă nevertebratul albastru uneori",as: [['s','au'],['k','are']]}], 
 [["ARCHITEUTHIS-sgmismatch",14], "EPDashedSentence", {s:"+"}, DS, {s:"Mamiferul de lângă nevertebratele albastre uneori",as: [['s','au'],['k','are']]}], 
 [["ARCHITEUTHIS-plmatch",14], "EPDashedSentence", {s:"+"}, DS, {s:"Mamiferele de lângă nevertebratele albastre uneori",as: [['s','au'],['k','are']]}], 
