@@ -1,6 +1,4 @@
-// Architeuthis Dux (Giant Atlantic Squid)
-// Dillon et al
-// 2AFC verb / pronoun continuation task
+// Agreement attraction in Romanian (complex version-nouns with adjectives)
 
 // Do show progress bar (fine! I give in)
 
