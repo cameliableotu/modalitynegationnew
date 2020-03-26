@@ -10,7 +10,7 @@ var shuffleSequence = seq(
     'setcounter',
     'intro',
     'shared-intro',
-    sepWith("timeoutSep",rshuffle(startsWith('ARCHITEUTHIS'),startsWith('filler'))),
+    sepWith("timeoutSep",rshuffle(startsWith('ATTRAGREEADJROMANIAN'),startsWith('filler'))),
     'debrief'
      );
 
@@ -110,17 +110,17 @@ var items = [
 [["ATTRAGREEADJROMANIAN-sgmatch",1], "EPDashedSentence", {s:"+"}, DS, {s:" Cartea de lângă femeia blondă mereu ",as: [['s','au'],['k','are']]}],
 [["ATTRAGREEADJROMANIAN-sgmismatch",1], "EPDashedSentence", {s:"+"}, DS, {s:" Cartea de lângă femeile blonde mereu ",as: [['s','au'],['k','are']]}], 
 [["ATTRAGREEADJROMANIAN-plmatch",1], "EPDashedSentence", {s:"+"}, DS, {s:"Cărţile de lângă femeile blonde mereu ",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-plmismatch",1], "EPDashedSentence", {s:"+"}, DS, {s:" Cărţile de lângă femeiea blondă mereu ",as: [['s','au'],['k','are']]}], 
+[["ATTRAGREEADJROMANIAN-plmismatch",1], "EPDashedSentence", {s:"+"}, DS, {s:" Cărţile de lângă femeia blondă mereu ",as: [['s','au'],['k','are']]}], 
 [["ATTRAGREEADJROMANIAN-sgmatch",2], "EPDashedSentence", {s:"+"}, DS, {s:"Vioara de lângă cântăreaţa profesionistă mereu ",as: [['s','au'],['k','are']]}], 
 [["ATTRAGREEADJROMANIAN-sgmismatch",2], "EPDashedSentence", {s:"+"}, DS, {s:"Vioara de lângă cântăreţele profesioniste mereu ",as: [['s','au'],['k','are']]}], 
 [["ATTRAGREEADJROMANIAN-plmatch",2], "EPDashedSentence", {s:"+"}, DS, {s:"Viorile de lângă cântăreţele profesioniste mereu ",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-plmismatch",2], "EPDashedSentence", {s:"+"}, DS, {s:" Viorile de lângă  cântăreaţa profesionistă mereu ",as: [['s','au'],['k','are']]}], 
+[["ATTRAGREEADJROMANIAN-plmismatch",2], "EPDashedSentence", {s:"+"}, DS, {s:"Viorile de lângă  cântăreaţa profesionistă mereu ",as: [['s','au'],['k','are']]}], 
 [["ATTRAGREEADJROMANIAN-sgmatch",3], "EPDashedSentence", {s:"+"}, DS, {s:"Rochia de lângă croitoreasa pricepută uneori",as: [['s','au'],['k','are']]}], 
 [["ATTRAGREEADJROMANIAN-sgmismatch",3], "EPDashedSentence", {s:"+"}, DS, {s:"Rochia de lângă croitoresele pricepute uneori",as: [['s','au'],['k','are']]}], 
 [["ATTRAGREEADJROMANIAN-plmatch",3], "EPDashedSentence", {s:"+"}, DS, {s:"Rochiile de lângă croitoresele pricepute uneori ",as: [['s','au'],['k','are']]}], 
 [["ATTRAGREEADJROMANIAN-plmismatch",3], "EPDashedSentence", {s:"+"}, DS, {s:" Rochiile de lângă  croitoreasa pricepută uneori ",as: [['s','au'],['k','are']]}], 
 [["ATTRAGREEADJROMANIAN-sgmatch",4], "EPDashedSentence", {s:"+"}, DS, {s:"Dulceaţa de lângă gospodina veselă uneori",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-sgmismatch",4], "EPDashedSentence", {s:"+"}, DS, {s:"Dulceaţa de lângă gospodinele vesele  uneori",as: [['s','au'],['k','are']]}], 
+[["ATTRAGREEADJROMANIAN-sgmismatch",4], "EPDashedSentence", {s:"+"}, DS, {s:"Dulceaţa de lângă gospodinele vesele uneori",as: [['s','au'],['k','are']]}], 
 [["ATTRAGREEADJROMANIAN-plmatch",4], "EPDashedSentence", {s:"+"}, DS, {s:"Dulceţurile de lângă gospodinele vesele uneori ",as: [['s','au'],['k','are']]}], 
 [["ATTRAGREEADJROMANIAN-plmismatch",4], "EPDashedSentence", {s:"+"}, DS, {s:"Dulceţurile de lângă  gospodina veselă uneori ",as: [['s','au'],['k','are']]}], 
 
@@ -145,8 +145,8 @@ var items = [
 
 [["ATTRAGREEADJROMANIAN-sgmatch",9], "EPDashedSentence", {s:"+"}, DS, {s:"Cuţitul de lângă organismul viu mereu",as: [['s','au'],['k','are']]}], 
 [["ATTRAGREEADJROMANIAN-sgmismatch",9], "EPDashedSentence", {s:"+"}, DS, {s:"Cuţitul de lângă organismele vii mereu",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-plmatch",9], "EPDashedSentence", {s:"+"}, DS, {s:" Cuţitele de lângă organismele vii mereu",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-plmismatch",9], "EPDashedSentence", {s:"+"}, DS, {s:" Cuţitele de lângă organismul viu mereu",as: [['s','au'],['k','are']]}],
+[["ATTRAGREEADJROMANIAN-plmatch",9], "EPDashedSentence", {s:"+"}, DS, {s:"Cuţitele de lângă organismele vii mereu",as: [['s','au'],['k','are']]}], 
+[["ATTRAGREEADJROMANIAN-plmismatch",9], "EPDashedSentence", {s:"+"}, DS, {s:"Cuţitele de lângă organismul viu mereu",as: [['s','au'],['k','are']]}],
 [["ATTRAGREEADJROMANIAN-sgmatch",10], "EPDashedSentence", {s:"+"}, DS, {s:"Tabloul de lângă animalul dungat mereu",as: [['s','au'],['k','are']]}], 
 [["ATTRAGREEADJROMANIAN-sgmismatch",10], "EPDashedSentence", {s:"+"}, DS, {s:"Tabloul de lângă animalele dungate mereu",as: [['s','au'],['k','are']]}], 
 [["ATTRAGREEADJROMANIAN-plmatch",10], "EPDashedSentence", {s:"+"}, DS, {s:"Tablourile de lângă animalele dungate mereu",as: [['s','au'],['k','are']]}], 
@@ -157,11 +157,11 @@ var items = [
 [["ATTRAGREEADJROMANIAN-plmismatch",11], "EPDashedSentence", {s:"+"}, DS, {s:"Nisipurile de lângă crustaceul leneş adesea",as: [['s','au'],['k','are']]}],
 [["ATTRAGREEADJROMANIAN-sgmatch",12], "EPDashedSentence", {s:"+"}, DS, {s:"Piureul de lângă macroul picant mereu",as: [['s','au'],['k','are']]}], 
 [["ATTRAGREEADJROMANIAN-sgmismatch",12], "EPDashedSentence", {s:"+"}, DS, {s:"Piureul de lângă macrourile picante mereu",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-plmatch",12], "EPDashedSentence", {s:"+"}, DS, {s:"Piureurile de lângă macrourile picante mereu ",as: [['s','au'],['k','are']]}], 
+[["ATTRAGREEADJROMANIAN-plmatch",12], "EPDashedSentence", {s:"+"}, DS, {s:"Piureurile de lângă macrourile picante mereu",as: [['s','au'],['k','are']]}], 
 [["ATTRAGREEADJROMANIAN-plmismatch",12], "EPDashedSentence", {s:"+"}, DS, {s:"Piureurile de lângă macroul picant mereu",as: [['s','au'],['k','are']]}],
 
 
-[["ATTRAGREEADJROMANIAN-sgmatch",13], "EPDashedSentence", {s:"+"}, DS, {s:"Sufletul de lângă trupul omenesc  mereu",as: [['s','au'],['k','are']]}], 
+[["ATTRAGREEADJROMANIAN-sgmatch",13], "EPDashedSentence", {s:"+"}, DS, {s:"Sufletul de lângă trupul omenesc mereu",as: [['s','au'],['k','are']]}], 
 [["ATTRAGREEADJROMANIAN-sgmismatch",13], "EPDashedSentence", {s:"+"}, DS, {s:"Sufletul de lângă trupurile omeneşti mereu",as: [['s','au'],['k','are']]}], 
 [["ATTRAGREEADJROMANIAN-plmatch",13], "EPDashedSentence", {s:"+"}, DS, {s:"Sufletele de lângă trupurile omeneşti mereu",as: [['s','au'],['k','are']]}], 
 [["ATTRAGREEADJROMANIAN-plmismatch",13], "EPDashedSentence", {s:"+"}, DS, {s:"Sufletele de lângă trupul omenesc mereu",as: [['s','au'],['k','are']]}],
