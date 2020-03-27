@@ -205,7 +205,7 @@ var items = [
 [["ATTRAGREEADJROMANIAN-plmismatch",22], "EPDashedSentence", {s:"+"}, DS, {s:"Buştenii de lângă eroul naţional mereu ",as: [['s','au'],['k','are']]}],
 [["ATTRAGREEADJROMANIAN-sgmatch",23], "EPDashedSentence", {s:"+"}, DS, {s:"Nasturele de lângă croitorul gras adesea",as: [['s','au'],['k','are']]}], 
 [["ATTRAGREEADJROMANIAN-sgmismatch",23], "EPDashedSentence", {s:"+"}, DS, {s:"Nasturele de lângă croitorii graşi adesea",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-plmatch",23], "EPDashedSentence", {s:"+"}, DS, {s:"Nasturii de lângă croitori graşi adesea",as: [['s','au'],['k','are']]}], 
+[["ATTRAGREEADJROMANIAN-plmatch",23], "EPDashedSentence", {s:"+"}, DS, {s:"Nasturii de lângă croitorii graşi adesea",as: [['s','au'],['k','are']]}], 
 [["ATTRAGREEADJROMANIAN-plmismatch",23], "EPDashedSentence", {s:"+"}, DS, {s:"Nasturii de lângă croitorul gras adesea",as: [['s','au'],['k','are']]}],
 [["ATTRAGREEADJROMANIAN-sgmatch",24], "EPDashedSentence", {s:"+"}, DS, {s:"Sacul de lângă contabilul armean uneori",as: [['s','au'],['k','are']]}], 
 [["ATTRAGREEADJROMANIAN-sgmismatch",24], "EPDashedSentence", {s:"+"}, DS, {s:"Sacul de lângă contabilii armeni uneori",as: [['s','au'],['k','are']]}], 
