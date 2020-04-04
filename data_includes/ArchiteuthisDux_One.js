@@ -10,7 +10,6 @@ var shuffleSequence = seq(
     'intro',
     'setcounter',
     'shared-intro',
-    "introduction",
     sepWith("timeoutSep",rshuffle(startsWith('ATTRAGREEADJROMANIAN'),startsWith('filler'))),
     'debrief'
      );
