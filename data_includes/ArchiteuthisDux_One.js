@@ -7,8 +7,8 @@ var showProgressBar = true;
 // Main shuffleSequence definition
 var shuffleSequence = seq(
     'consent',
-    'setcounter',
     'intro',
+    'setcounter',
     'shared-intro',
     sepWith("timeoutSep",rshuffle(startsWith('ATTRAGREEADJROMANIAN'),startsWith('filler'))),
     'debrief'
@@ -69,11 +69,10 @@ function modifyRunningOrder(ro)
 
 // Items array.
 var items = [
-
+["setcounter", "__SetCounter__", { }],
 ["timeoutSep", Separator, { transfer: 250, normalMessage: "", errorMessage: "Timed out. Vă rugăm să răspundeți mai rapid."}],
 
 ["consent", "Form", {consentRequired: true, html: {include: "consent.html"}}],
-["setcounter", "__SetCounter__", { }],
 ["intro", "Form", {consentRequired: true, html: {include: "intro.html"}}],
 ["debrief", "Form", {consentRequired: true, html: {include: "debrief.html"}}],
 
