@@ -41,7 +41,7 @@ var defaults = [
         wordTime: 250,
         wordPauseTime: 150,
         timeout: 4000,
-        hasCorrect: 1,
+        hasCorrect: false,
         q: ''}
 ];
 
