@@ -40,8 +40,8 @@ var defaults = [
         blankText: '+',
         wordTime: 250,
         wordPauseTime: 150,
-        timeout: null,
-        hasCorrect: 1,
+        timeout: 4000,
+        hasCorrect: false,
         q: ''}
 ];
 
@@ -70,7 +70,7 @@ function modifyRunningOrder(ro)
 // Items array.
 var items = [
 
-["timeoutSep", Separator, { transfer: 250, normalMessage: "", errorMessage: ""}],
+["timeoutSep", Separator, { transfer: 250, normalMessage: "", errorMessage: "Timed out. Vă rugăm să răspundeți mai rapid."}],
 
 ["consent", "Form", {consentRequired: true, html: {include: "consent.html"}}],
 ["setcounter", "__SetCounter__", { }],
@@ -86,7 +86,7 @@ var items = [
                            ["p", "Hai să exersăm un pic înainte de a începe efectiv."]
                          ]}],
 
-['shared-intro', Separator, { transfer: 250, normalMessage: "", errorMessage: ""}, "EPDashedSentence", {s:"+"}, DS, {s:"Pisicuţele tigrate",as: [['s','sunt'],['k','este']]}],
+['shared-intro', Separator, { transfer: 250, normalMessage: "", errorMessage: "Timed out. Vă rugăm să răspundeți mai rapid."}, "EPDashedSentence", {s:"+"}, DS, {s:"Pisicuţele tigrate",as: [['s','sunt'],['k','este']]}],
 
 ['shared-intro', Message, {consentRequired: false,
                    html: ["div",
@@ -94,8 +94,8 @@ var items = [
                            ["p", "Multor vorbitori nativi de limba română li se pare că 'sunt' este o continuare mai firească a fragmentului anterior. Hai să mai exersăm un pic."],
                          ]}],
 
-['shared-intro', Separator, { transfer: 250, normalMessage: "", errorMessage: ""}, "EPDashedSentence", {s:"+"}, DS, {s:"Zambila roz",as: [['s','miros'],['k','miroase']]}],
-['shared-intro', Separator, { transfer: 250, normalMessage: "", errorMessage: ""}, "EPDashedSentence", {s:"+"}, DS, {s:"Maria şi Ion",as: [['s','sunt'],['k','este']]}],
+['shared-intro', Separator, { transfer: 250, normalMessage: "", errorMessage: "Timed out. Vă rugăm să răspundeți mai rapid."}, "EPDashedSentence", {s:"+"}, DS, {s:"Zambila roz",as: [['s','miros'],['k','miroase']]}],
+['shared-intro', Separator, { transfer: 250, normalMessage: "", errorMessage: "Timed out. Vă rugăm să răspundeți mai rapid."}, "EPDashedSentence", {s:"+"}, DS, {s:"Maria şi Ion",as: [['s','sunt'],['k','este']]}],
 
 ['shared-intro', Message, {consentRequired: false,
                    html: ["div",
