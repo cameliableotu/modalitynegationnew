@@ -70,7 +70,7 @@ function modifyRunningOrder(ro)
 // Items array.
 var items = [
 ["setcounter", "__SetCounter__", { }],
-["timeoutSep", Separator, { transfer: 250, normalMessage: "", errorMessage: "Timed out. Vă rugăm să răspundeți mai rapid."}],
+["timeoutSep", Separator, { transfer: 1500, normalMessage: "", errorMessage: "Timed out. Vă rugăm să răspundeți mai rapid."}],
 
 ["consent", "Form", {consentRequired: true, html: {include: "consent.html"}}],
 ["intro", "Form", {consentRequired: true, html: {include: "intro.html"}}],
@@ -84,17 +84,16 @@ var items = [
                    html: ["div",
                            ["p", "Hai să exersăm un pic înainte de a începe efectiv."]
                          ]}],
-
-["shared-intro", Separator, { transfer: 250, normalMessage: "", errorMessage: "Timed out. Vă rugăm să răspundeți mai rapid."}, "EPDashedSentence", {s:"+"}, DS, {s:"Pisicuţele tigrate",as: [['s','sunt'],['k','este']]}],
+['shared-intro', "EPDashedSentence", {s:"+"}, DS, {s:"Pisicuţele tigrate",as: [['s','sunt'],['k','este']]}, Separator, { transfer: 250, normalMessage: "", errorMessage: "Timed out. Vă rugăm să răspundeți mai rapid."}],
 
 ['shared-intro', Message, {consentRequired: false,
                    html: ["div",
-                           ["p", "Cum vi s-a părut? Pur şi simplu alegeţi varianta care vi se pare o continuare mai bună a propoziţiei."],
+                           ["p", "Cum vi s-a părut? Pur şi simplu alegeţi rapid varianta care vi se pare o continuare mai bună a propoziţiei."],
                            ["p", "Multor vorbitori nativi de limba română li se pare că 'sunt' este o continuare mai firească a fragmentului anterior. Hai să mai exersăm un pic."],
                          ]}],
 
-["shared-intro", Separator, { transfer: 250, normalMessage: "", errorMessage: "Timed out. Vă rugăm să răspundeți mai rapid."}, "EPDashedSentence", {s:"+"}, DS, {s:"Zambila roz",as: [['s','miros'],['k','miroase']]}],
-["shared-intro", Separator, { transfer: 250, normalMessage: "", errorMessage: "Timed out. Vă rugăm să răspundeți mai rapid."}, "EPDashedSentence", {s:"+"}, DS, {s:"Maria şi Ion",as: [['s','sunt'],['k','este']]}],
+['shared-intro', "EPDashedSentence", {s:"+"}, DS, {s:"Zambila roz",as: [['s','miros'],['k','miroase']]}, Separator, { transfer: 250, normalMessage: "", errorMessage: "Timed out. Vă rugăm să răspundeți mai rapid."}],
+['shared-intro', "EPDashedSentence", {s:"+"}, DS, {s:"Maria şi Ion",as: [['s','sunt'],['k','este']]}, Separator, { transfer: 250, normalMessage: "", errorMessage: "Timed out. Vă rugăm să răspundeți mai rapid."}],
 
 ['shared-intro', Message, {consentRequired: false,
                    html: ["div",
