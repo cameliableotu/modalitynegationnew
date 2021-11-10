@@ -42,7 +42,13 @@ var defaults = [
         wordPauseTime: 150,
         timeout: 3000,
         hasCorrect: false,
-        q: ''}
+        q: ''},
+    "AcceptabilityJudgment", {
+        as: ["1", "2", "3", "4", "5", "6", "7"],
+        presentAsScale: true,
+        instructions: "Use number keys or click boxes to answer.",
+        leftComment: "(Bad)", rightComment: "(Good)"
+    }
 ];
 
 // Add breaks every 24 items
@@ -105,10 +111,14 @@ var items = [
 
 //// Shared experimental items + fillers
 //// 
-[["MODALITYNEGATION-notnecessary",1], "EPDashedSentence", {s:"+"}, DS, {s:"In 'You mustn't worry. The woman will give you the money', 'You mustn't worry' means",as: [['s','It is neccessary that you do not worry.'],['k','It is not necessary that you worry.']]}],
-[["MODALITYNEGATION-necessarynot",1], "EPDashedSentence", {s:"+"}, DS, {s:"In 'You mustn't worry. You will get sick otherwise.', 'You mustn't worry' means",as: [['s','It is necessary that you do not worry.'],['k','It is not necessary that you worry.']]}],
-[["MODALITYNEGATION-notnecessary",2], "EPDashedSentence", {s:"+"}, DS, {s:"In 'He mustn't panic. The teacher will give the class an easy test.', 'He mustn't panic' means",as: [['s','It is necessary that he does not panic.'],['k','It is not necessary that he panics.']]}],  
-[["MODALITYNEGATION-necessarynot",2], "EPDashedSentence", {s:"+"}, DS, {s:"In 'He mustn't panic. The bears in the area will attack him otherwise.', 'He mustn't panic' means",as: [['s','It is necessary that he does not panic.'],['k','It is not necessary that he panics.']]}],
+[["MODALITYNEGATION-notnecessary",1], "EPDashedSentence", {s:"+"}, DS, {s:"In 'You mustn't worry. The woman will give you the money', 'You mustn't worry' means",as: [['s','It is neccessary that you do not worry.'],['k','It is not necessary that you worry.']]},
+                                      "AcceptabilityJudgment", {p: "How acceptable do you find 'You mustn't worry' in the context?")], 
+[["MODALITYNEGATION-necessarynot",1], "EPDashedSentence", {s:"+"}, DS, {s:"In 'You mustn't worry. You will get sick otherwise.', 'You mustn't worry' means",as: [['s','It is necessary that you do not worry.'],['k','It is not necessary that you worry.']]},
+                                       "AcceptabilityJudgment", {p: "How acceptable do you find 'You mustn't worry' in the context?")],
+[["MODALITYNEGATION-notnecessary",2], "EPDashedSentence", {s:"+"}, DS, {s:"In 'He mustn't panic. The teacher will give the class an easy test.', 'He mustn't panic' means",as: [['s','It is necessary that he does not panic.'],['k','It is not necessary that he panics.']]},
+                                      "AcceptabilityJudgment", {p: "How acceptable do you find 'He mustn't panic' in the context?")],
+[["MODALITYNEGATION-necessarynot",2], "EPDashedSentence", {s:"+"}, DS, {s:"In 'He mustn't panic. The bears in the area will attack him otherwise.', 'He mustn't panic' means",as: [['s','It is necessary that he does not panic.'],['k','It is not necessary that he panics.']]},
+                                       "AcceptabilityJudgment", {p: "How acceptable do you find 'He mustn't panic' in the context?")],
 [["MODALITYNEGATION-notnecessary",3], "EPDashedSentence", {s:"+"}, DS, {s:"In 'She mustn't be sad. Her mom will find the doll.', 'She mustn't be sad' means",as: [['s','It is necessary that she is not sad.'],['k','It is not necessary that she is sad.']]}], 
 [["MODALITYNEGATION-necessarynot",3],  "EPDashedSentence", {s:"+"}, DS, {s:"In 'She mustn't be sad. She will ruin the party otherwise.', 'She mustn't be sad' means", as: [['s','It is necessary that she is not sad.'],['k','It is not necessary that she is sad.']]}],
 [["MODALITYNEGATION-notnecessary",4], "EPDashedSentence", {s:"+"}, DS, {s:"In 'You mustn't be angry. The man will reward you for your efforts.', 'You mustn't be angry.' means",as: [['s','It is necessary that you are not angry.'],['k','It is not necessary that you are angry.']]}], 
